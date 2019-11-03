@@ -1,0 +1,73 @@
+.top{
+	text-align: right;
+	font-size: 20px;
+	color: #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.content{
+	text-align: center;
+	margin-top: 30px;
+}
+.content-top{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.content-down{
+	margin-top: 20px;
+}
+.content-down button{
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.content-down button:hover{
+	border: 1px solid rgba(0,0,0,0.7);
+}
+.buttom{
+	float: left;
+	width: 98%;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+.buttom .buttom-left{
+	float: left;
+	position:absolute;
+	bottom:20px;
+	left: 10px;
+	padding:0px;
+	margin:0px
+}
+.buttom .buttom-right{
+	float: right;
+}
+.buttom .buttom-right img{
+	width: 70px;
+}
+
+#nybank{
+	background-image: url(../img/banklogo/nybank.png);
+	background-repeat: no-repeat;
+}
+
+#zgbank{
+	background-image: url(../img/banklogo/zgbank.png);
+	background-repeat: no-repeat;
+}
+#gsbank{
+	background-image: url(../img/banklogo/gsbank.png);
+	background-repeat: no-repeat;
+}
+#jsbank{
+	background-image: url(../img/banklogo/jsbank.png);
+	background-repeat: no-repeat;
+}
+#jtbank{
+	background-image: url(../img/banklogo/jtbank.png);
+	background-repeat: no-repeat;
+}
