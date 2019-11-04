@@ -3,6 +3,8 @@ $(document).ready(function() {
 	$('#loginSubmit').click(function(event) {
 		var account = $('#account').val();
 		var password = $('#password').val();
+		console.log(account=='')
+		console.log(account=='')
 		if (account == '' && password == '') {
 			event.preventDefault();
 			event.stopPropagation();
@@ -12,7 +14,15 @@ $(document).ready(function() {
 			});
 		} else {
 			$('form').submit(function() {
-				console.log(this);
+				$.ajax({
+					type:"get",
+					url:"",
+					success:function(msg){
+						if(msg){
+							window.location.href = 'AMT-HTML/'+'../frontdesk/home.html';
+						}
+					}
+					});
 			});
 		}
 
@@ -23,13 +33,15 @@ $(document).ready(function() {
 function preventSubmit() {
 	var account = $('#account').val();
 	var password = $('#password').val();
-	if (account == '' && password == '') {
-
+	
+	if (account && password) {
 		return false;
 	} else {
 		$('form').submit(function() {
-			console.log(this);
+			console.log('ok')
+			
 		});
 	}
 }
+
 

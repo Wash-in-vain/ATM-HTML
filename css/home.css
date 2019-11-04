@@ -23,6 +23,7 @@
 	background-position: center;
 	background-image: url(../img/banklogo/main01.png);
 	background-repeat: no-repeat;
+	background-size: 769px;
 }
 
 .buttom {
@@ -64,10 +65,15 @@
 	margin-top: 170px;
 }
 .content-down #tuika{
-	margin-top: 170px;
+	margin-top: 50px;
 }
 .content-down img:hover{
 	filter: brightness(95%);
+}
+.content-down #jycx{
+	width: 95%;
+	margin-top: 50px;
+	float: right;
 }
 
 
