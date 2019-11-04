@@ -9,7 +9,7 @@ $(document).ready(function(){
 		window.location.href = "../frontdesk/transfer.html";
 	});
 	$('#tuika').click(function(){
-		console.log('退卡成功');
+		window.location.href = "../index.html"
 	});
 	$('#jycx').click(function(){
 		window.location.href = "../frontdesk/transactioninformation.html";
