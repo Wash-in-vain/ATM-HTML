@@ -7,8 +7,8 @@ $(document).ready(function() {
 			event.preventDefault();
 			event.stopPropagation();
 			return $.growl.warning({
-				title: "警告",
-				message: "密码或银行卡号不能为空"
+				title: "密码或银行卡号不能为空",
+				message: ""
 			});
 		} else {
 			$('form').submit(function() {
@@ -32,3 +32,4 @@ function preventSubmit() {
 		});
 	}
 }
+
