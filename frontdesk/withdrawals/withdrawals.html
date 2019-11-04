@@ -3,8 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<script src="../../js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/withdrawals.css" />
+		<title>取款</title>
 	</head>
 	<body>
+		<div id="top" class="top">
+			报警电话：110
+		</div>
+		<div id="content" class="content">
+			<div class="content-down">
+					<form method="post" enctype="application/x-www-form-urlencoded">
+						<input type="hidden" name="bank" id="bank" value="th" />
+						<label>取款金额：</label>
+						<input type="text" name="amount" id="amount" value="" minlength="1" /><br />
+						<input type="submit" value="取出" id="Rollout" /><br />
+						<input type="button" name="returns" id="returns" value="返回" />
+					</form>
+			</div>
+		</div>
+		<div class="buttom">
+			<div class="buttom-left">系统服务热线：400-800-168</div>
+			<div class="buttom-right"><img src="../../img/banklogo/yllogo.png"></div>
+		</div>
+		</div>
 	</body>
 </html>
